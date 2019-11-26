@@ -18,7 +18,7 @@ class App extends React.Component {
       <div className='App'>
         <Header cart={this.state.cart} />
         <ProductsList cart={this.state.cart} />
-        <Footer />
+        <Footer/>
       </div>
     );
   }
