@@ -41,9 +41,9 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `name`, `price`, `description`, `image_href`) VALUES
-(1, 'Example Product 1', 99.99, 'This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1. This is a description of product 1.', ''),
-(2, 'Example Product 2', 155.00, 'This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. This is a description of product 2. \r\n', 'https://www.dkit.ie/assets/uploads/DkIT%20Funding%20.jpg');
-
+(1, 'Google Home', 100.00, 'The Google Home. Get real-time answers to questions with Google. Play & control music from streaming services with integrated speaker. Find information hands-free using Google Assistant. Control your smart home products using your voice.', 'https://brain-images-ssl.cdn.dixons.com/1/4/10161441/u_10161441.jpg'),
+(2, 'Apple AirPods', 179.00, 'Apple AirPods with Charging Case. Wireless and easy to use. Up to 5 hours of listening time (on one charge). More than 24 hours of listening time (with Charging Case). \r\n', 'https://johnlewis.scene7.com/is/image/JohnLewis/238086341?$rsp-pdp-port-1440$');
+(3, '')
 --
 -- Indexes for dumped tables
 --
