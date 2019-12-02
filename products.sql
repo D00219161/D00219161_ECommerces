@@ -42,8 +42,8 @@ CREATE TABLE `products` (
 
 INSERT INTO `products` (`id`, `name`, `price`, `description`, `image_href`) VALUES
 (1, 'Google Home', 100.00, 'The Google Home. Get real-time answers to questions with Google. Play & control music from streaming services with integrated speaker. Find information hands-free using Google Assistant. Control your smart home products using your voice.', 'https://brain-images-ssl.cdn.dixons.com/1/4/10161441/u_10161441.jpg'),
-(2, 'Apple AirPods', 179.00, 'Apple AirPods with Charging Case. Wireless and easy to use. Up to 5 hours of listening time (on one charge). More than 24 hours of listening time (with Charging Case). \r\n', 'https://johnlewis.scene7.com/is/image/JohnLewis/238086341?$rsp-pdp-port-1440$');
-(3, '')
+(2, 'Apple AirPods', 179.00, 'Apple AirPods with Charging Case. Wireless and easy to use. Up to 5 hours of listening time (on one charge). More than 24 hours of listening time (with Charging Case). \r\n', 'https://johnlewis.scene7.com/is/image/JohnLewis/238086341?$rsp-pdp-port-1440$'),
+(3, 'Xbox One s', 199.00, 'Xbox One S Star Wars Jedi: Fallen Order™ Bundle (1TB). Whats in the box: Xbox One S 1TB console, Star Wars Jedi: Fallen Order™ Deluxe Edition, 1-month of EA Access, 1-month trial of Xbox Game Pass for console and Xbox Live Gold. \r\n', 'https://compass-ssl.xbox.com/assets/f9/a7/f9a70007-9dc5-4dff-8327-dca26d346821.jpg?n=X1S-113654_Hero-Image-0_1920x777_03.jpg');
 --
 -- Indexes for dumped tables
 --
