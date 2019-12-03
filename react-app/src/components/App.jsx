@@ -4,6 +4,7 @@ import Header       from './Header';
 import Cart         from '../lib/Cart';
 import Footer       from './Footer';
 import ThemeSwitcher from './ThemeSwitcher';
+import NavMenu       from './Navigation';
 
 
 class App extends React.Component {
@@ -17,10 +18,11 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <ThemeSwitcher />
-        <Header cart={this.state.cart} />
+        <Header />
+        <NavMenu  cart={this.state.cart} />
         <ProductsList cart={this.state.cart} />
         <Footer />
+        <ThemeSwitcher />
       </div>
     );
   }
