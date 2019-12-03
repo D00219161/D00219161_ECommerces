@@ -5,6 +5,7 @@ import Cart         from '../lib/Cart';
 import Footer       from './Footer';
 import NavMenu      from './Navigation';
 
+
 class App extends React.Component {
 
   // Note the cart object is just a vanilla JS
@@ -12,12 +13,11 @@ class App extends React.Component {
   state = {
     cart : new Cart()
   }
-
   // Render
   render() {
     return (
       <div className='App'>
-      <NavMenu />
+        <NavMenu />
         <Header cart={this.state.cart} />
         <ProductsList cart={this.state.cart} />
         <Footer />
