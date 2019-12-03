@@ -3,6 +3,7 @@ import ProductsList from './ProductList';
 import Header       from './Header';
 import Cart         from '../lib/Cart';
 import Footer       from './Footer';
+import NavMenu      from './Navigation';
 
 class App extends React.Component {
 
@@ -16,9 +17,10 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
+      <NavMenu />
         <Header cart={this.state.cart} />
         <ProductsList cart={this.state.cart} />
-        <Footer/>
+        <Footer />
       </div>
     );
   }
