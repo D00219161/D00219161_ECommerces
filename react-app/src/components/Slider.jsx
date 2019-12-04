@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 
-class ThemeSwitcher extends Component {
+class Slider extends Component {
 
   render() {
     return (
       <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=First slide&bg=373940"
-      alt="First slide"
+      className="w-100"
+      src="https://www.universitysupplystore.com/outerweb/product_images/13194215l.jpg"
+      alt="First Slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Apple Watch Series 4</h3>
+      <p></p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
+      src="https://www.irelandsown.ie/wp-content/uploads/2017/12/hith-father-christmas-lights-iStock_000029514386Large.jpg"
       alt="Third slide"
     />
 
@@ -32,7 +32,7 @@ class ThemeSwitcher extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
+      src="https://www.irelandsown.ie/wp-content/uploads/2017/12/hith-father-christmas-lights-iStock_000029514386Large.jpg"
       alt="Third slide"
     />
 
@@ -48,4 +48,4 @@ class ThemeSwitcher extends Component {
   
 }
 
-export default ThemeSwitcher;
+export default Slider;

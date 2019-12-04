@@ -1,11 +1,9 @@
 import React        from 'react';
 import ProductsList from './ProductList';
-import Header       from './Header';
 import Cart         from '../lib/Cart';
 import Footer       from './Footer';
-import ThemeSwitcher from './ThemeSwitcher';
-import NavMenu       from './Navigation';
-
+import NavMenu      from './Navigation';
+import Slider       from './Slider'; 
 
 class App extends React.Component {
 
@@ -18,11 +16,10 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <Header />
         <NavMenu  cart={this.state.cart} />
+        <Slider />
         <ProductsList cart={this.state.cart} />
         <Footer />
-        <ThemeSwitcher />
       </div>
     );
   }
