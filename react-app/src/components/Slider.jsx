@@ -9,7 +9,7 @@ class Slider extends Component {
   <Carousel.Item>
     <img
       className="w-100"
-      src="https://www.universitysupplystore.com/outerweb/product_images/13194215l.jpg"
+      src=""
       alt="First Slide"
     />
     <Carousel.Caption>
@@ -20,7 +20,7 @@ class Slider extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://www.irelandsown.ie/wp-content/uploads/2017/12/hith-father-christmas-lights-iStock_000029514386Large.jpg"
+      src=""
       alt="Third slide"
     />
 
@@ -32,7 +32,7 @@ class Slider extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://www.irelandsown.ie/wp-content/uploads/2017/12/hith-father-christmas-lights-iStock_000029514386Large.jpg"
+      src=""
       alt="Third slide"
     />
 
