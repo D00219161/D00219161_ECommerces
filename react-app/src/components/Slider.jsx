@@ -21,7 +21,7 @@ class Slider extends Component {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="https://a1.amlimg.com/MjA4MjQwZjBlNDUxMDA4MmU4ZDhmZDY2NjEzZWNjYjYmRfOKZwXfOGFXInnWnIu_aHR0cDovL21lZGlhLmFkc2ltZy5jb20vM2YxMmI2NzFlYzU1OWFiMzFmMDI2MWJmOTEzNjRmN2MxYTNmNWUwM2VlZDRiMTkyYzA0ZDE4YTliN2E4MTg4NS5qcGd8fHx8fHw3MDB4NTAwfGh0dHA6Ly93d3cuYWR2ZXJ0cy5pZS9zdGF0aWMvaS93YXRlcm1hcmsucG5nfHx8.jpg"
+      src="https://www.bhphotovideo.com/images/images2500x2500/canon_1263c004_eos_80d_dslr_camera_1225875.jpg"
       alt-text="Canon EOS 80D Body"
     />
 
