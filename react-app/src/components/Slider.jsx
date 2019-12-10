@@ -13,7 +13,7 @@ class Slider extends Component {
       alt-text="Red Dead Redemption 2"
     />
     <Carousel.Caption>
-      <h3>Red Redemption 2 - Starting from €40.00</h3>
+      <h3>Red Dead Redemption 2 - Starting from €40.00</h3>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>

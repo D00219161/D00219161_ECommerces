@@ -15,7 +15,6 @@ class NavMenu extends Component {
     </nav>
         </Navbar.Brand>
     <Nav className="mr-auto">
-      
     </Nav>
     <Form><ViewCart cart={this.props.cart} />
     </Form>

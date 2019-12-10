@@ -7,7 +7,7 @@ class Stripe extends Component {
     };
     render() {
         return (
-            <row><Col classname ="float-right">
+            <row><Col classname ="stripe">
             <p>Payment Option here:</p>
             <StripeCheckout
             name="TheChristmasShop.ie"
