@@ -2,7 +2,7 @@ import React           from 'react';
 import AddToCartButton from './AddToCartButton';
 import * as Config     from '../config.json';
 import './Product.css';
-import {Row, Col} from 'react-bootstrap/';
+import {Col} from 'react-bootstrap/';
 
 class Product extends React.Component {
 
@@ -12,9 +12,8 @@ class Product extends React.Component {
   // components.
   render() {
     return (
-      <Row>
-      
-      <Col md={10}><div className='card mb-4'>
+
+      <Col md={11}><div className='card mb-4'>
         <h2 className='card-header'>{this.props.product.name}</h2>
         <div className='row'>
 
@@ -32,9 +31,7 @@ class Product extends React.Component {
             </div>
           </div>
         </div>
-
-      </div></Col>
-      </Row>
+      </div></Col>    
     );
   }
 

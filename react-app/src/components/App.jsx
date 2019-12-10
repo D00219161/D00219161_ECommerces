@@ -17,10 +17,10 @@ class App extends React.Component {
   render() {
     return (
       <div className='App'>
-        <NavMenu  cart={this.state.cart} />
+        <NavMenu cart={this.state.cart} />
         <Slider />
-        <ProductsList cart={this.state.cart} />
         <StripeCheckout label="Pay with 💳" />
+        <ProductsList cart={this.state.cart} />
         <Footer />
       </div>
     );

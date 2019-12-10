@@ -1,8 +1,16 @@
 body {
   background-color: rosybrown;
 }
-/*# sourceMappingURL=main.css.map */
 
-h4{
+h3 {
+  color: grey;
+}
+
+h4 {
   text-align: center;
 }
+
+:right {
+  float: right;
+}
+/*# sourceMappingURL=main.css.map */
