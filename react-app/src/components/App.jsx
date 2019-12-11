@@ -19,7 +19,7 @@ class App extends React.Component {
       <div className='App'>
         <NavMenu cart={this.state.cart} />
         <Slider />
-        <StripeCheckout label="Pay with 💳" />
+        <StripeCheckout />
         <ProductsList cart={this.state.cart} />
         <Footer />
       </div>
