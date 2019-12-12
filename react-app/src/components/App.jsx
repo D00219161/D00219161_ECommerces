@@ -4,7 +4,6 @@ import Cart         from '../lib/Cart';
 import Footer       from './Footer';
 import NavMenu      from './Navigation';
 import Slider       from './Slider';
-import StripeCheckout from './Columns';
 
 class App extends React.Component {
 
@@ -19,7 +18,6 @@ class App extends React.Component {
       <div className='App'>
         <NavMenu cart={this.state.cart} />
         <Slider />
-        <StripeCheckout />
         <ProductsList cart={this.state.cart} />
         <Footer />
       </div>

@@ -7,11 +7,6 @@ class Stripe extends Component {
     };
     render() {
         return (
-            <Container>
-           <Row>
-           <Col sm={9}>Products Listed Below</Col>
-           <Col sm={2}>
-           <p>Payment Option here:
             <StripeCheckout
             name="TheChristmasShop.ie"
             image="http://files.softicons.com/download/holidays-icons/christmas-dock-icons-by-chicho21net/png/256/snowman.png"
@@ -20,9 +15,6 @@ class Stripe extends Component {
             label="Pay with 💳" 
             token={this.onToken}
             />
-            </p>
-            </Col></Row>
-</Container>
         )
   }
 }

@@ -30,6 +30,7 @@ class Product extends React.Component {
               <AddToCartButton product={this.props.product} cart={this.props.cart} />
             </div>
           </div>
+          
         </div>
       </div></Col>    
     );

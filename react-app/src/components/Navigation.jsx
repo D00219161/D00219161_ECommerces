@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, FormControl, Form } from 'react-bootstrap';
 import ViewCart from './ViewCart';
+import StripeCheckout from './Stripe';
 
 class NavMenu extends Component {
 
@@ -16,8 +17,9 @@ class NavMenu extends Component {
         </Navbar.Brand>
     <Nav className="mr-auto">
     </Nav>
-    <Form><ViewCart cart={this.props.cart} />
-    </Form>
+    <ViewCart cart={this.props.cart} />
+    <StripeCheckout />
+    
   </Navbar>
     );
     
