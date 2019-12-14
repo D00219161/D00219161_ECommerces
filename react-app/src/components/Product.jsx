@@ -2,8 +2,7 @@ import React           from 'react';
 import AddToCartButton from './AddToCartButton';
 import * as Config     from '../config.json';
 import './Product.css';
-import {Col, Row} from 'react-bootstrap/';
-import { videoTagString} from 'react-video-tag';
+import {Col} from 'react-bootstrap/';
 
 class Product extends React.Component {
 
@@ -13,8 +12,7 @@ class Product extends React.Component {
   // components.
   render() {
     return (
-      <Row>
-      <Col md={11}>
+      <Col md={12}>
       <div className='card mb-4'>
         <h2 className='card-header'>{this.props.product.name}</h2>
         <div className='row'>
@@ -34,20 +32,10 @@ class Product extends React.Component {
             </div>
           </div>
 
-          <div className='col-6 col-md-3'>
-          <p className='card-text'> 
-          
-          </p>
-          </div>
-          
         </div>
       </div>
-      </Col>    
+      </Col> 
       
-      <Col md={4}>
-        
-      </Col>
-      </Row>
     );
   }
 
