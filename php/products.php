@@ -10,7 +10,7 @@
     $db = new PDO("mysql:host=localhost;dbname=$db_name;charset=utf8mb4", $db_user, $db_pass);
 
     // Get DB rows (all products)
-    $stt = $db->prepare('SELECT id,name,price,description,image_href,creator FROM products');
+    $stt = $db->prepare('SELECT id,name,price,description,image_href,creator,video FROM products');
     $stt->execute();
 
     // Associative array of all DB results

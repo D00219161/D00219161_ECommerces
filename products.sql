@@ -34,15 +34,16 @@ CREATE TABLE `products` (
   `price` float(6,2) NOT NULL,
   `description` text CHARACTER SET utf8 COLLATE utf8_swedish_ci NOT NULL,
   `creator` text CHARACTER SET utf8 COLLATE utf8_swedish_ci NOT NULL,
-  `image_href` varchar(255) CHARACTER SET utf8 COLLATE utf8_swedish_ci NOT NULL
+  `image_href` varchar(255) CHARACTER SET utf8 COLLATE utf8_swedish_ci NOT NULL,
+  `video` varchar(255) CHARACTER SET utf8 COLLATE utf8_swedish_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `products`
 --
 
-INSERT INTO `products` (`id`, `name`, `price`, `description`, `creator`, `image_href`) VALUES
-(1, 'The Google Home', 100.00, 'Get real-time answers to questions with Google. Play & control music from streaming services with integrated speaker. Find information hands-free using Google Assistant. Control your smart home products using your voice.', 'Google', 'https://brain-images-ssl.cdn.dixons.com/1/4/10161441/u_10161441.jpg'),
+INSERT INTO `products` (`id`, `name`, `price`, `description`, `creator`, `image_href`, `video`) VALUES
+(1, 'The Google Home', 100.00, 'Get real-time answers to questions with Google. Play & control music from streaming services with integrated speaker. Find information hands-free using Google Assistant. Control your smart home products using your voice.', 'Google', 'https://brain-images-ssl.cdn.dixons.com/1/4/10161441/u_10161441.jpg', 'https://www.youtube.com/embed/OsXedJq1aWE frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen'),
 (2, 'Apple AirPods with Charging Case', 179.00, 'Wireless and easy to use. Up to 5 hours of listening time (on one charge). More than 24 hours of listening time (with Charging Case). \r\n', 'https://johnlewis.scene7.com/is/image/JohnLewis/238086341?$rsp-pdp-port-1440$'),
 (3, 'Xbox One S Star Wars Jedi: Fallen Order™ Bundle (1TB)', 199.00, 'Whats in the box: Xbox One S 1TB console, Star Wars Jedi: Fallen Order™ Deluxe Edition, 1-month of EA Access, 1-month trial of Xbox Game Pass for console and Xbox Live Gold. \r\n', 'https://compass-ssl.xbox.com/assets/f9/a7/f9a70007-9dc5-4dff-8327-dca26d346821.jpg?n=X1S-113654_Hero-Image-0_1920x777_03.jpg'),
 (4, 'SONY PlayStation 4 - 500 GB, White', 299.99, '500 GB hard drive & 8 GB GDDR5 memory. Blu-ray drive. Built-in WiFi & Ethernet & Bluetooth. Redesigned chassis for slim design.', 'https://brain-images-ssl.cdn.dixons.com/1/0/10159101/u_10159101.jpg'),

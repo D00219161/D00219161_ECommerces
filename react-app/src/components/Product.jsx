@@ -3,7 +3,7 @@ import AddToCartButton from './AddToCartButton';
 import * as Config     from '../config.json';
 import './Product.css';
 import {Col, Row} from 'react-bootstrap/';
-import {VideoTrack } from 'video-react';
+import { videoTagString} from 'react-video-tag';
 
 class Product extends React.Component {
 
@@ -14,7 +14,7 @@ class Product extends React.Component {
   render() {
     return (
       <Row>
-      <Col md={8}>
+      <Col md={11}>
       <div className='card mb-4'>
         <h2 className='card-header'>{this.props.product.name}</h2>
         <div className='row'>
@@ -35,9 +35,9 @@ class Product extends React.Component {
           </div>
 
           <div className='col-6 col-md-3'>
-            <div className='card-body'>
-              <p className='card-video'>{this.props.product.creator}</p>
-            </div>
+          <p className='card-text'> 
+          
+          </p>
           </div>
           
         </div>
@@ -45,7 +45,7 @@ class Product extends React.Component {
       </Col>    
       
       <Col md={4}>
-        <iframe width="350" height="200" src="https://www.youtube.com/embed/OsXedJq1aWE"></iframe>
+        
       </Col>
       </Row>
     );
