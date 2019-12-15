@@ -5,6 +5,8 @@ import Footer       from './Footer';
 import NavMenu      from './Navigation';
 import Slider       from './Slider';
 import Column       from './Columns';
+import EmailForm    from './Form';
+
 
 class App extends React.Component {
 
@@ -21,6 +23,7 @@ class App extends React.Component {
         <Slider />
         <ProductsList cart={this.state.cart} />
         <Column />
+        <EmailForm />
         <Footer />
       </div>
     );

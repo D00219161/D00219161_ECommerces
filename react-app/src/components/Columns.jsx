@@ -3,18 +3,13 @@ import {Col, Row, Container} from 'react-bootstrap/';
 
 class Column extends React.Component {
 
-    // Rendering for a single product. Note that each product is
-    // passed in as a prop. All products are looped over in the
-    // ProductList component, creating many of these Product
-    // components.
     render() {
       return (
 <Container>
-<div className="christmas"><a href="https://www.animatedimages.org/cat-merry-christmas-570.htm">
-<img src="https://www.animatedimages.org/data/media/570/animated-merry-christmas-image-0116.gif" 
-border="0" alt="animated-merry-christmas-image-0116" width="800px" height="250px"/></a></div>
+<div className="christmas"><img src="https://www.animatedimages.org/data/media/570/animated-merry-christmas-image-0116.gif" 
+border="0" alt="animated-merry-christmas-image-0116" width="800px" height="250px"/></div>
 <div className="content">
-<h4>Video Advert's</h4>
+<h4>Video Advert's of what to buy this Christmas!</h4>
   <Row>
     <Col xs><iframe width="350" height="315" src="https://www.youtube.com/embed/OsXedJq1aWE"></iframe></Col>
     <Col xs={{ order: 12 }}><iframe width="350" height="315" src="https://www.youtube.com/embed/yyNtm0LZiKc"></iframe></Col>

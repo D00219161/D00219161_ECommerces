@@ -1,3 +1,14 @@
+form {
+  padding-right: 2em;
+  background-color: lightred;
+  text-align: center;
+}
+
+nav .Navbar {
+  background-color: #177C43;
+  color: blue;
+}
+
 body {
   background-color: rosybrown;
 }
@@ -8,6 +19,7 @@ h3 {
 
 h4 {
   text-align: center;
+  padding: 10px;
 }
 
 :right {
@@ -20,5 +32,9 @@ h4 {
 
 .content {
   padding-top: 10px;
+}
+
+footer {
+  background-color: #177C43;
 }
 /*# sourceMappingURL=main.css.map */
