@@ -6,6 +6,7 @@ import NavMenu      from './Navigation';
 import Slider       from './Slider';
 import Column       from './Columns';
 import EmailForm    from './Form';
+import Christmas    from './Christmas';
 
 
 class App extends React.Component {
@@ -22,6 +23,7 @@ class App extends React.Component {
         <NavMenu cart={this.state.cart} />
         <Slider />
         <ProductsList cart={this.state.cart} />
+        <Christmas />
         <Column />
         <EmailForm />
         <Footer />

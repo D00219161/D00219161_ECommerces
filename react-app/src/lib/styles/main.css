@@ -4,13 +4,13 @@ form {
   text-align: center;
 }
 
-nav .Navbar {
+.navbar {
   background-color: #177C43;
-  color: blue;
+  color: black;
 }
 
 body {
-  background-color: rosybrown;
+  background-color: #FF2534;
 }
 
 h3 {
@@ -30,11 +30,11 @@ h4 {
   text-align: center;
 }
 
-.content {
-  padding-top: 10px;
+.footer {
+  background-color: #177C43;
 }
 
-footer {
-  background-color: #177C43;
+.grid {
+  background-color: #EAE9E9;
 }
 /*# sourceMappingURL=main.css.map */

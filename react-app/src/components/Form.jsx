@@ -5,7 +5,7 @@ class EmailForm extends React.Component {
 
     render() {
       return (
-        <div id="grid">
+        <div className="grid">
         <h4>Please sign up and checkout here!</h4>
         <Col sm={12}>
         <Form>
