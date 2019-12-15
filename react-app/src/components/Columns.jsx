@@ -10,6 +10,10 @@ class Column extends React.Component {
     render() {
       return (
 <Container>
+<div className="christmas"><a href="https://www.animatedimages.org/cat-merry-christmas-570.htm">
+<img src="https://www.animatedimages.org/data/media/570/animated-merry-christmas-image-0116.gif" 
+border="0" alt="animated-merry-christmas-image-0116" width="800px" height="250px"/></a></div>
+<div className="content">
 <h4>Video Advert's</h4>
   <Row>
     <Col xs><iframe width="350" height="315" src="https://www.youtube.com/embed/OsXedJq1aWE"></iframe></Col>
@@ -28,6 +32,7 @@ class Column extends React.Component {
     <Col xs={{ order: 12 }}><iframe width="350" height="315" src="https://www.youtube.com/embed/Ls_dxo6vNTc"></iframe></Col>
     <Col xs={{ order: 1 }}><iframe width="350" height="315" src="https://www.youtube.com/embed/Knf9hh2o1L0"></iframe></Col>
   </Row>
+  </div>
 </Container>
 );
 }

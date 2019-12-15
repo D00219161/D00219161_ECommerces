@@ -13,4 +13,12 @@ h4 {
 :right {
   float: right;
 }
+
+.christmas {
+  text-align: center;
+}
+
+.content {
+  padding-top: 10px;
+}
 /*# sourceMappingURL=main.css.map */
